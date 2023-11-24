@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
         showSelectedLabels: false,
         showUnselectedLabels: false,
         selectedItemColor: Colors.green,
-        unselectedItemColor: Colors.green[200],
+        unselectedItemColor: Colors.green[400],
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.chat), label: 'Chat'),
